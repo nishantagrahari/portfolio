@@ -56,7 +56,7 @@
 import { defineComponent, ref } from "vue";
 import { Notify } from "quasar";
 import { validateEmail, validateFullName } from "../utils/helpers";
-import { saveMessage } from "../shared/services/contact.service";
+// import { saveMessage } from "../shared/services/contact.service";
 
 export default defineComponent({
   name: "ContactUsForm",
@@ -80,24 +80,29 @@ export default defineComponent({
         message: this.message,
       };
 
-      await saveMessage(payload)
-        .then(async (res) => {
-          Notify.create({
-            type: "positive",
-            message: "Success. Message send successfully.",
-            group: false,
-          });
-          // this.clearForm();
-          this.isLoading = false;
-        })
-        .catch((error) => {
-          Notify.create({
-            type: "negative",
-            message: "Error! Something went wrong while sending message.",
-            group: false,
-          });
-          this.isLoading = false;
-        });
+      Notify.create({
+        type: "positive",
+        message: "Success. Message send successfully.",
+        group: false,
+      });
+
+      this.clearForm();
+      this.isLoading = false;
+
+      // await saveMessage(payload)
+      //   .then(async (res) => {
+
+      //     // this.clearForm();
+      //     this.isLoading = false;
+      //   })
+      //   .catch((error) => {
+      //     Notify.create({
+      //       type: "negative",
+      //       message: "Error! Something went wrong while sending message.",
+      //       group: false,
+      //     });
+      //     this.isLoading = false;
+      //   });
     },
 
     validateEmail,

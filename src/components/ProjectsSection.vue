@@ -8,7 +8,7 @@
       rounded
       color="primary"
       class="q-mb-xl"
-      href="https://github.com/gdkimaiyo?tab=repositories"
+      href="https://github.com/nishantagrahari?tab=repositories"
       target="_blank"
       label="View All Projects"
     />

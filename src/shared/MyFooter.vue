@@ -36,10 +36,10 @@
               </q-item-section>
               <q-item-section>
                 <q-item-label class="text-h6 text-weight-bold">
-                  Gideon Kimaiyo
+                  Nishant Agrahari
                 </q-item-label>
                 <q-item-label caption class="text-white">
-                  gdkimaiyo@gmail.com
+                  agrahari.nishant007@gmail.com
                 </q-item-label>
               </q-item-section>
             </q-item>
@@ -79,32 +79,32 @@
             Projects
           </a>
         </div>
-        <div class="nav-btn">
+        <!-- <div class="nav-btn">
           <a class="q-pr-sm" clickable @click="scrollTo('services')">
             Services
           </a>
-        </div>
+        </div> -->
         <div class="nav-btn">
           <a class="q-pr-sm" clickable @click="scrollTo('skills')"> Skills </a>
         </div>
-        <div class="nav-btn">
+        <!-- <div class="nav-btn">
           <a class="q-pr-sm" clickable @click="scrollTo('testimonials')">
             Testimonials
           </a>
-        </div>
-        <div class="nav-btn">
+        </div> -->
+        <!-- <div class="nav-btn">
           <a class="q-pr-sm" clickable>Blogs</a>
-        </div>
+        </div> -->
         <div class="nav-btn">
           <a class="q-pr-sm" clickable @click="goTo('/contact')">
             Contact Me
           </a>
         </div>
-        <div class="nav-btn">
+        <!-- <div class="nav-btn">
           <a class="q-pr-sm" clickable @click="goTo('/support-me')">
             Support Me
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -126,7 +126,7 @@
           class="href-link"
           style="color: #ffffff"
         >
-          Gideon Kimaiyo
+          Nishant Agrahari
         </a>
       </div>
     </div>

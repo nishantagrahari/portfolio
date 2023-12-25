@@ -7,7 +7,7 @@
       <ProjectsSection id="projects" ref="#projects" />
     </div>
 
-    <ServicesSection id="services" ref="#services" />
+    <!-- <ServicesSection id="services" ref="#services" /> -->
 
     <div
       class="after-landing q-mt-lg q-pt-xl q-px-md"
@@ -17,7 +17,7 @@
       <ExpertiseSection />
     </div>
 
-    <TestimonialsSection id="testimonials" ref="#testimonials" />
+    <!-- <TestimonialsSection id="testimonials" ref="#testimonials" /> -->
 
     <div class="after-landing q-py-xl q-px-md">
       <FindMe />
@@ -42,9 +42,9 @@ import { defineComponent } from "vue";
 import LandingPage from "../components/LandingPage.vue";
 import AboutSection from "../components/AboutSection.vue";
 import ProjectsSection from "../components/ProjectsSection.vue";
-import ServicesSection from "../components/ServicesSection.vue";
+// import ServicesSection from "../components/ServicesSection.vue";
 import ExpertiseSection from "../components/ExpertiseSection.vue";
-import TestimonialsSection from "../components/TestimonialsSection.vue";
+// import TestimonialsSection from "../components/TestimonialsSection.vue";
 import FindMe from "../components/FindMe.vue";
 
 import { scrollToTop } from "../utils/helpers";
@@ -56,9 +56,9 @@ export default defineComponent({
     LandingPage,
     AboutSection,
     ProjectsSection,
-    ServicesSection,
+    // ServicesSection,
     ExpertiseSection,
-    TestimonialsSection,
+    // TestimonialsSection,
     FindMe,
   },
 

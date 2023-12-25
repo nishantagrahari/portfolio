@@ -19,9 +19,11 @@
             </q-item-section>
             <q-item-section class="q-ml-none">
               <q-item-label class="text-h6 text-weight-bold">
-                Gideon Kimaiyo
+                Nishant Agrahari
               </q-item-label>
-              <q-item-label caption> gdkimaiyo@gmail.com </q-item-label>
+              <q-item-label caption>
+                agrahari.nishant007@gmail.com
+              </q-item-label>
             </q-item-section>
           </q-item>
         </q-list>
@@ -30,7 +32,7 @@
         <div class="about-header text-h4 text-weight-bold">About Me</div>
         <div class="q-mt-md">
           <p>
-            I am a <b>Software Engineer</b> from Kenya. Over a period of
+            I am a <b>Software Engineer</b>. Over a period of
             <b>{{ years }}+</b> years, I have been building web applications
             with focus on making them simple and user-friendly.
           </p>
@@ -41,7 +43,7 @@
           <p>
             You can find me on
             <a
-              href="https://www.linkedin.com/in/gideon-kimaiyo/"
+              href="https://www.linkedin.com/in/nishant-agrahari-bba129167/"
               target="_blank"
               rel="noopener noreferrer"
               class="href-link text-primary"
@@ -50,21 +52,20 @@
             </a>
             or
             <a
-              href="https://github.com/gdkimaiyo"
+              href="https://github.com/nishantagrahari"
               target="_blank"
               rel="noopener noreferrer"
               class="href-link text-primary"
             >
               GitHub
             </a>
-            where I build web applications projects like this Portfolio.
           </p>
           <p>
             <span class="sub-label">
               <q-icon name="fas fa-location-dot" size="18px" />
-              Nairobi,
+              Janakpur,
             </span>
-            <span style="font-style: italic">Kenya</span>
+            <span style="font-style: italic">Nepal</span>
 
             <span class="q-px-md gt-xs">
               <q-icon name="fas fa-circle" size="6px" />
@@ -74,15 +75,16 @@
               <q-icon name="fas fa-square-envelope" size="18px" />
             </span>
             <span style="font-style: italic" class="gt-xs">
-              gdkimaiyo@gmail.com
+              agrahari.nishant007@gmail.com
             </span>
 
+            <br />
             <span class="q-px-md">
               <q-icon name="fas fa-circle" size="7px" />
             </span>
 
             <span class="sub-label">
-              <span class="gt-xs">Languages</span>
+              <span class="gt-xs">Languages:</span>
               <q-icon
                 name="fas fa-language"
                 size="18px"
@@ -90,11 +92,12 @@
                 class="lt-sm"
               />
             </span>
-            <span style="font-style: italic">English</span>
-            <span class="q-px-sm">
-              <q-icon name="fas fa-circle" size="3px" />
-            </span>
-            <span style="font-style: italic">Swahili</span>
+
+            <span style="font-style: italic">English, Nepali, Hindi</span>
+            <!-- <span class="q-px-sm">
+              <q-icon name="fas fa-circle" size="3px" /> -->
+            <!-- </span>
+            <span style="font-style: italic">Nepali</span> -->
           </p>
         </div>
       </div>
@@ -124,7 +127,7 @@ export default defineComponent({
 
   setup() {
     return {
-      years: ref(new Date().getFullYear() - 2018),
+      years: ref(new Date().getFullYear() - 2021),
       pics: ref(["dp_primary.jpg", "dp_secondary.jpg"]),
     };
   },
@@ -157,7 +160,7 @@ export default defineComponent({
 }
 .image-div {
   width: 40%;
-  max-width: 40%;
+  max-width: 50%;
   align-content: center;
   text-align: center;
   flex-grow: 1;
@@ -176,7 +179,7 @@ export default defineComponent({
   text-decoration: underline;
 }
 .sub-label {
-  padding-right: 6px;
+  padding-right: 2px;
   color: #6c757d;
   font-weight: bold;
 }

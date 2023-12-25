@@ -15,18 +15,18 @@
           <q-icon name="fas fa-code-branch" size="18px" />
           Projects
         </a>
-        <a class="nav-btn gt-xs" clickable @click="scrollTo('services')">
+        <!-- <a class="nav-btn gt-xs" clickable @click="scrollTo('services')">
           <q-icon name="fas fa-gear" size="18px" />
           Services
-        </a>
+        </a> -->
         <a class="nav-btn gt-xs" clickable @click="scrollTo('skills')">
           <q-icon name="fas fa-laptop-code" size="18px" />
           Skills
         </a>
-        <a class="nav-btn gt-xs" clickable @click="scrollTo('testimonials')">
+        <!-- <a class="nav-btn gt-xs" clickable @click="scrollTo('testimonials')">
           <q-icon name="fas fa-comment-dots" size="18px" />
           Testimonials
-        </a>
+        </a> -->
         <!-- <a class="nav-btn gt-xs" clickable>
           <q-icon name="fab fa-blogger" size="18px" />
           My Blogs
@@ -34,16 +34,16 @@
       </q-toolbar-title>
 
       <div>
-        <a
+        <!-- <a
           class="nav-btn gt-xs"
           :class="{ 'active-link': currentRoute === '/support-me' }"
           clickable
           @click="goTo('/support-me')"
         >
           <q-icon name="fas fa-circle-dollar-to-slot" size="18px" />
-          <!-- <q-icon name="fas fa-hand-holding-dollar" size="18px" /> -->
+          <q-icon name="fas fa-hand-holding-dollar" size="18px" />
           Support Me
-        </a>
+        </a> -->
         <a
           class="nav-btn gt-xs"
           :class="{ 'active-link': currentRoute === '/contact' }"

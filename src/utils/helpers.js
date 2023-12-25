@@ -1,8 +1,7 @@
 export const animateFunc = () => {
   const dataText = [
-    "Hi, I am Gideon",
-    "I am a Software Engineer",
-    "Sky is the limit!",
+    "Hi, I am Nishant",
+    "I am a Full Stack Developer"
   ];
 
   // type one text in the typwriter

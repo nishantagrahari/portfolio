@@ -1,6 +1,6 @@
 <template>
   <div id="landing-page" class="landing-page">
-    <div class="page-header q-mt-md"><em>Hi, I am Gideon</em></div>
+    <div class="page-header q-mt-md"><em>Hi, I am Nishant</em></div>
   </div>
 </template>
 
